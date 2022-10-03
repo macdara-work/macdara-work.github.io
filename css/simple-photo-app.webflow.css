@@ -15,7 +15,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.text-block {
+.heading {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 
-.lightbox-link-2 {
+.lightbox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -75,7 +75,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .text-block {
+  .heading {
     font-size: 35px;
   }
 
@@ -89,7 +89,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .text-block {
+  .heading {
     font-size: 28px;
   }
 
@@ -103,7 +103,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  .text-block {
+  .heading {
     font-size: 20px;
     line-height: 28px;
   }
